@@ -1,7 +1,7 @@
 import streamlit as st
 import firebase_admin
 from firebase_admin import firestore
-from firebase_admin import credentials
+from firebase_admin import credentials, exceptions, initialize_app
 from firebase_admin import auth
 
 
