@@ -6,7 +6,7 @@ from firebase_admin import auth
 
 
 cred = credentials.Certificate("mwanachuo2-7faec-firebase-adminsdk-ddavb-0b8a737a43.json")
-firebase_admin.initialize_app(cred)
+#firebase_admin.initialize_app(cred)
 def app():
 # Usernm = []
     col3, col4 = st.columns([4,2])
